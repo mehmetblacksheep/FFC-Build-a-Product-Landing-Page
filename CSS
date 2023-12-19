@@ -1,0 +1,316 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Questrial", sans-serif;
+}
+
+html {
+  scroll-padding-top: 10rem;
+}
+
+script {
+  z-index: 156135;
+}
+
+body {
+  background-color: #121212;
+  color: white;
+  position: relative;
+}
+
+main {
+  width: 75vw;
+  margin: 0px auto;
+}
+
+
+header {
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  position: sticky;
+  z-index: 1665;
+  top: 0;
+  min-height: 75px;
+  padding: 0px 20px;
+  border: 2px transparent;
+  border-radius: 4rem;
+  opacity: 80%;
+}
+
+nav {
+  display: flex;
+  text-decoration: none;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+}
+
+nav a {
+  color: white;
+  margin: auto 20px;
+  padding: 30px 20px;
+  text-decoration: none;
+  width: auto;
+  height: auto;
+  border: 2px transparent;
+  border-radius: 8px;
+}
+
+nav a:hover {
+  background-color: #7246a8;
+  color: white;
+}
+
+.logo {
+  padding: 10px;
+}
+
+
+
+.contact {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 3rem 0px;
+}
+
+.contact button {
+  width: 6vw;
+  height: 3vh;
+  margin: 2px auto;
+  border: transparent;
+  border-radius: 12px;
+  background-color: #7246a8;
+  cursor: pointer;
+}
+
+.contact button:hover {
+  background-color: #37264d;
+}
+
+#text {
+  width: 25vw;
+  margin: 20px auto;
+  height: 4vh;
+  border: transparent;
+  border-radius: 10px;
+}
+
+.heading {
+  text-align: center;
+  font-size: 25px;
+}
+
+
+
+#how-it-works {
+  display: flex;
+}
+
+#how-it-works iframe {
+  margin: 0px auto;
+  width: 25vw;
+  height: 28vh;
+}
+
+
+
+.products {
+  display: flex;
+  margin: 40px auto;
+  justify-content: center;
+  width: 75vw;
+}
+
+.product-name {
+  text-align: center;
+  background-color: #b178f742;
+  width: 100%;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-weight: bolder;
+  text-transform: capitalize;
+  font-size: 22px;
+}
+
+.mtb,
+.storm,
+.hero-firefox {
+  margin: 7rem;
+  border: 2px transparent solid;
+  border-radius: 10px;
+  background-color: #1f1b24;
+  height: 35vh;
+  width: 35vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Questrial", sans-serif;
+}
+
+.details {
+  padding: 15px;
+}
+
+.selectbtn {
+  margin: 10px 60px;
+  cursor: pointer;
+  background-color: #7246a8;
+  border: transparent 10px solid;
+  border-radius: 8px;
+}
+
+.price {
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.selectbtn:hover {
+  background-color: #37264d;
+}
+
+
+
+.features {
+  width: 75vw;
+  margin: 9rem auto;
+}
+
+.flex img {
+  width: 65px;
+  margin-left: 7rem;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  margin-left: 8rem;
+  height: 4rem;
+  justify-content: center;
+ 
+}
+
+#features {
+  display: flex;
+  flex-direction: row;
+  width: 60vw;
+  margin: 70px auto;
+}
+
+footer {
+  width: 75vw;
+  display: flex;
+  margin: 2px auto;
+  flex-direction: column;
+  padding: 25px;
+  background-color: black;
+  border: transparent;
+  border-radius: 40px;
+}
+
+#terms {
+  text-align: center;
+}
+
+#terms a {
+  padding: 5px 15px;
+  text-decoration: none;
+  color: white;
+  border: transparent;
+  border-radius: 10px;
+}
+
+#terms a:hover {
+  background-color: purple;
+}
+
+#copyright {
+  text-align: center;
+  margin-top: 15px;
+}
+
+form {
+  visibility: collapse;
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    flex-direction: column;
+    border-radius: 0px;
+  }
+
+  nav {
+    flex-direction: column;
+  }
+
+  nav a {
+    width: 100%;
+    padding: 15px 0px;
+  }
+
+  .products {
+    flex-direction: column;
+    margin-top: 10rem;
+  }
+
+  #text {
+    width: 50vw;
+  }
+
+  .mtb,
+  .hero-firefox,
+  .storm {
+    margin: 7rem auto;
+    width: 55vw;
+    height: 45vh;
+  }
+
+  .heading input {
+    width: 55vw;
+  }
+
+  .contact button {
+    width: 7rem;
+  }
+
+  .description {
+    margin-left: 0px;
+  }
+
+  #features {
+    flex-direction: column;
+  }
+
+  .description p {
+    text-align: center;
+  }
+
+  .flex img {
+    margin-left: 0px;
+    width: 65px;
+  }
+
+  .features > section > div {
+    height: 15vh;
+  }
+
+  .features section div h3 {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .features section div {
+    margin: 0px auto;
+  }
+
+  #how-it-works iframe {
+    width: 60vw;
+  }
+
+  footer {
+    width: 100%;
+  }
+}
